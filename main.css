@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-color: azure;
+    margin: 0;
+}
+h1,h2 {
+    font-family: arial;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: blue;
+}
+p,ul,table {
+    font-family: cursive;
+    font-size: 16px;
+    line-height: 1.2;
+}
+div {
+    line-height:1.4;
+    font-size: 16px;
+    font-family: cursive;
+}
+a {
+    text-decoration: none;
+} 
+.head {
+    background-color:  cornsilk;
+    padding: 2px;
+}
+.fname {
+    background-color: black;
+    padding: 2px;
+}
+.h2-first {
+    color: white;
+}
+.image {
+    border: inset 5px gold;
+    border-radius: 200%;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.h-footer {
+    color: white;
+}
+.social a{
+    border-bottom: gold solid;
+}
+.fname img{
+    margin-top: 30px;
+}
