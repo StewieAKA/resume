@@ -7,8 +7,9 @@
     <title>Who am i?</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="text-align: center">
-    <h1>Context:</h1>
+<body>
+    <div class="head">
+    <h1 >Context:</h1>
     <ul>
         <li><a href="#fname">Abdusamad Bozorov</a></li>
         <li><a href="#hobby">Favorite Hobbies</a></li>
@@ -18,14 +19,14 @@
         <li><a href="#location">Location</a></li>
         <li><a href="#messages">Get in touch with me</a></li>
     </ul>
-
-
-
-    <img src="11.jpg" alt="Abdusamad's photo" width="200">
-    <h2>
+    </div>
+    <div class="fname">
+    <img class="image" src="11.jpg" alt="Abdusamad's photo" width="200">
+    <h2 class="h2-first">
         <a name="fname">Abdusamad Bozorov</a>
     </h2>
-    <hr color="red">
+    <hr color="black">
+    </div>
     <p>I am third child in my family: 3
         <sup>
             1
@@ -48,19 +49,19 @@
     <h2>
         <a name="hobby">Favorite hobbies:</a>
     </h2>
-    <p>
+    <div class="fhobby">
         <ul>
             <li>Coding</li>
             <li>Gaming</li>
             <li>Gym</li>
             <li>Walking in the night</li>
         </ul>
-    </p>
+    </div>
     <h2>
         <a name="education">Education:</a>
     </h2>
-    <form></form>
-        <table border style="border: red;">
+    <form>
+        <table align="center" border style="border: inset gold;">
             <thead>
                 <trow>
                     <th>Place:</th>
@@ -90,7 +91,7 @@
     <h2>
         <a name="social">Contact me through social applications:</a>
     </h2>
-    <ul>
+    <ul class="social">
         <li>
             <a href="https://t.me/whattheDeuce" target="_blank">Telegram
             </a>
@@ -118,49 +119,51 @@
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Tuw8hxrFBH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
     </p>
-    <h2><a>Location:</a></h2>
+    <h2 class="location"><a>Location:</a></h2>
     <div style="position:relative;overflow:hidden;">
         <a href="https://yandex.com/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Tashkent</a>
         <a href="https://yandex.com/maps/10335/tashkent/?ll=69.294591%2C41.361657&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Tashkent — Yandex Maps</a>
         <iframe src="https://yandex.com/map-widget/v1/-/CCUJaQR0-B" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
         </iframe>
     </div>
-    <h2>
-        <a name="messages">
-            Get in touch with me:
-        </a>
-    </h2>
-    <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="fname" placeholder="First name..."
-    </div>
-    <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Write your email...">
-    </div>
-    <div>
-        <label for="Gender">Please choose your gender:</label>
-        <select id="Gender">
-            <option value="Erkak" selected>Male</option>
-            <option value="Ayol">Female</option>
-            <option value="Boshqalar">Others</option>
-        </select>
-    </div>
-    <div>
-        <label for="age">Choose your age interval:</label>
-        <br>
-        <input type="radio" name="age">10+
-        <input type="radio" name="age">20+
-        <input type="radio" name="age">30+
-        <input type="radio" name="age">40+
-    </div>
-    <div>
-        <label for="message">Message:</label>
-        <br>
-        <textarea id="message" placeholder="Your message..." rows="10" cols="30"></textarea>
-    </div>
-    <div>
-        <input type="button" value="Submit!"
+    <div class="footer">
+        <h2 class="h-footer">
+            <a name="messages">
+                Get in touch with me:
+            </a>
+        </h2>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="fname" placeholder="First name..."
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Write your email...">
+        </div>
+        <div>
+            <label for="Gender">Please choose your gender:</label>
+            <select id="Gender">
+                <option value="Erkak" selected>Male</option>
+                <option value="Ayol">Female</option>
+                <option value="Boshqalar">Others</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Choose your age interval:</label>
+            <br>
+            <input type="radio" name="age">10+
+            <input type="radio" name="age">20+
+            <input type="radio" name="age">30+
+            <input type="radio" name="age">40+
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" placeholder="Your message..." rows="10" cols="30"></textarea>
+        </div>
+        <div>
+            <input type="button" value="Submit!"
+        </div>
     </div>
 </body>
 </html>
