@@ -4,6 +4,7 @@
     background-color: black;
     border: white solid;
     border-radius: 200%;
+    letter-spacing: 1.6px;
 }
 .head img{
     border: black solid;
@@ -11,3 +12,7 @@
 ul{
     list-style-type: none;
 }
+body{
+    margin: 5%;
+
+
